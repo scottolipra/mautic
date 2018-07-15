@@ -40,14 +40,22 @@ $queryString         = '?tmpl='.$tmpl.(isset($queryString) ? $queryString : '');
 $formExit            = (!empty($ignoreFormExit)) ? ' data-ignore-formexit="true"' : '';
 $responsiveViewports = ['desktop', 'mobile'];
 $limitOptions        = [
-    5   => '5',
+#    5   => '5',
     10  => '10',
-    15  => '15',
-    20  => '20',
-    25  => '25',
+#    15  => '15',
+#    20  => '20',
+#    25  => '25',
     30  => '30',
-    50  => '50',
-    100 => '100',
+#    50  => '50',
+#    100 => '100',
+    60  => '60',
+   100 => '100',
+   300 => '300',
+   600 => '600',
+    1000 => '1000',
+    3000 => '3000',
+    6000 => '6000',
+
 ];
 
 if (!isset($jsCallback)) {
